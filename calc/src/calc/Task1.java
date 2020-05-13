@@ -3,17 +3,12 @@ package calc;
 public class Task1 {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
-    int a =(3 + 2 * 6 + 5);
-    int b =(a + 15);
+        int numA = 3 + 2 * 6 + 5;
+        int numB = (3 + 2) * 6 + 5;
 
-    int c =(25 / 3);
-    int d =(25 % 3);
-
-    System.out.println("修正前：" + a);
-    System.out.println("修正後：" + b);
-    System.out.println("25/3の商" + c + "余り" + d);
-
+            System.out.println("修正前：" + numA);
+            System.out.println("修正後：" + numB);
+            System.out.println("25/3の商:" + 25 / 3 + "余り:" + 25 % 3);
 	}
 
 }

@@ -2,24 +2,22 @@ package calc;
 import java.util.Scanner;
 
 public class Task3 {
-      public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-    	Scanner scanner = new Scanner(System.in);
+            int a = scanner.nextInt();
+            int b = scanner.nextInt();
+            int c = scanner.nextInt();
+            int x =(a + b + c);
+            int y =(x / 3);
+            double z =(x / 3.0);
+            scanner.close();
 
-        int A = scanner.nextInt();
-        int B = scanner.nextInt();
-        int C = scanner.nextInt();
-        int X =(A + B + C);
-        int Y =(X / 3);
-     double Z =(X / 3.0);
-        scanner.close();
-
-        System.out.println(A);
-        System.out.println(B);
-        System.out.println(C);
-        System.out.println("合計：" + X);
-        System.out.println("平均(3で割った時):" + Y);
-        System.out.println("平均(3.0で割った時):" + Z);
-      }
+                System.out.println(a);
+                System.out.println(b);
+                System.out.println(c);
+                System.out.println("合計：" + x);
+                System.out.println("平均(3で割った時):" + y);
+                System.out.println("平均(3.0で割った時):" + z);
+     }
 }
