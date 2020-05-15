@@ -1,7 +1,6 @@
 package calc;
 
-public class Task1 {
-
+    public class Task1 {
 	public static void main(String[] args) {
         int numA = 3 + 2 * 6 + 5;
         int numB = (3 + 2) * 6 + 5;

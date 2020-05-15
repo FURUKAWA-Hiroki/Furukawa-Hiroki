@@ -1,7 +1,5 @@
 package calc;
-
-public class Task4 {
-
+    public class Task4 {
 	public static void main(String[] args) {
         int a = 192837;
 		int x = a / 10;
