@@ -13,7 +13,6 @@ public class Task3 {
                 i = i / 10;
                        
             }
-        	System.out.println("桁数:" + (long)keta);
-                
+        	System.out.println("桁数:" + (long)keta);               
     }   
 }

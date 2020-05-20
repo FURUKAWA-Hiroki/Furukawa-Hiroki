@@ -8,11 +8,11 @@ import java.util.Scanner;
         System.out.println(numberA);
 		scanner.close();
         
-            if(numberA >= 10) 
-                {System.out.println("値:" + numberA);
-            }
-            if(numberA < 10) 
-                {System.out.println("値:" + numberA * 10);
-            }
+        if(numberA >= 10) {
+            System.out.println("値:" + numberA);
+        }
+        if(numberA < 10) {
+            System.out.println("値:" + numberA * 10);
+        }
     }
-}
+} 
