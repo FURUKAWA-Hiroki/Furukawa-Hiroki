@@ -8,11 +8,13 @@ import java.util.Scanner;
         System.out.println(numberA);
 	    scanner.close();
 	        
-	    if(numberA > 0) 
-	        {System.out.println("値:" + numberA);
-	    }
-	    if(numberA < 10)
-	        {System.out.println("値:0" + numberA);
-	    }
+	    if(numberA > 0){ 
+	        System.out.println("値:" + numberA);
+	    }else {
+	        //出力しない
+	    }	
+	    if(numberA < 10) {
+	        System.out.println("値:0" + numberA);
+	    }   
     }
-}
+} 
