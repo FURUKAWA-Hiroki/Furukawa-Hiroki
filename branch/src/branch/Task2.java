@@ -7,14 +7,11 @@ import java.util.Scanner;
         System.out.println("数字を入力してください");
         System.out.println(numberA);
 	    scanner.close();
-	        
-	    if(numberA > 0){ 
-	        System.out.println("値:" + numberA);
-	    }else {
-	        //出力しない
-	    }	
+	          
 	    if(numberA < 10) {
 	        System.out.println("値:0" + numberA);
-	    }   
+	    }else if(numberA < 0) {
+	        System.out.println("値:" + numberA);
+	    }    
     }
 } 
