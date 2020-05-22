@@ -13,10 +13,13 @@ import java.util.Scanner;
 		System.out.println("numC:" + numC);
    
 		int max = numA;
-		String resultA1 = (max >= numB)? "最大値;" + numA: "最大値" + numB;
- 		    System.out.println(resultA1);
-		
- 		String resultA2 = (max >= numC)? "最大値;" + numA: "最大値" + numC;
- 		    System.out.println(resultA2);
-    } 
+		String resultA1 =(max >= numB) ? "最大値;" + numA: "最大値" + numB;
+		String resultA2 = (max >= numC)? "最大値;" + numA: "最大値" + numC;
+ 		    if(max >= numB) {
+ 		        System.out.println(resultA1);
+ 		    }
+ 		    else {
+ 		    	System.out.println(resultA2);
+ 		    }   
+    }   
 }
