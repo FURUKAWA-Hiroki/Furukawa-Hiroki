@@ -7,11 +7,11 @@ import java.util.Scanner;
 		int numB = sc.nextInt();
 		int numC = sc.nextInt();
 		sc.close();
- 
+
 		System.out.println("numA:" + numA);
 		System.out.println("numB:" + numB);
 		System.out.println("numC:" + numC);
-   
+
 		int max = numA;
 		String resultA1 =(max >= numB) ? "最大値;" + numA: "最大値" + numB;
 		String resultA2 = (max >= numC)? "最大値;" + numA: "最大値" + numC;
@@ -20,6 +20,6 @@ import java.util.Scanner;
  		    }
  		    else {
  		    	System.out.println(resultA2);
- 		    }   
-    }   
+ 		    }
+    }
 }
