@@ -1,9 +1,8 @@
 package branch;
 import java.util.Scanner;
-    public class Task3 {
+public class Task3 {
     public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-
+        Scanner sc = new Scanner(System.in);
         int numA = sc.nextInt();
         System.out.println(numA);
         sc.close();
