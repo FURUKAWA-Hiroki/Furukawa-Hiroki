@@ -9,11 +9,11 @@ import java.util.Scanner;
         sc.close();
 
         if(numA > 0) {
-        	System.out.println("入力された数字は正の数です。");
-            }else if(numA < 0) {
-        	    System.out.println("入力された数字は負の数です。");
-            }else {
-        	    System.out.println("入力された数字は0です。");
+            System.out.println("入力された数字は正の数です。");
+        }else if(numA < 0) {
+            System.out.println("入力された数字は負の数です。");
+        }else {
+            System.out.println("入力された数字は0です。");
         }
     }
-} 
+}
