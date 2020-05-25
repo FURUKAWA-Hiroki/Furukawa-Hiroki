@@ -6,4 +6,4 @@ public class Task2 {
         System.out.println(name + "です。" );
         System.out.println("私の電話番号は" + telnumber + "です。");
     }
-} //上書き保存のため
+} //上書き保存のため 最新版
