@@ -4,7 +4,6 @@ public class Task3 {
     public static void main(String[] args) {
         int intNum = 219;
         long a =(long)intNum;
-
         double doubleNum = 364.2;
         float b = (float)doubleNum;
 

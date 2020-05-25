@@ -6,7 +6,7 @@ public class Task1 {
         int  c = 9;
         long d = 2147483648L;
         char e = '才';
-
+        
         System.out.println(a + b + c + d + e); 
     }
 }
