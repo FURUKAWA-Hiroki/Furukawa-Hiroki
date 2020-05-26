@@ -14,14 +14,12 @@ public class Task5 {
 
         int max = numA;
 
-        if(max >= numB) {
-            max  = numA;
-        }else if(max <=numB){
+        if(max > numB) {
+        }else if(max <numB){
             max = numB;
         }
-        if(max >= numC) {
-            max  = numA;
-        }else if(max <=numC){
+        if(max > numC) {
+        }else if(max <numC){
             max = numC;	
         }
         System.out.println("最大値:" + max);

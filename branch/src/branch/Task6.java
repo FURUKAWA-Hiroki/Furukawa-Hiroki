@@ -16,17 +16,17 @@ public class Task6 {
                 break;
             case"3":
                 numA = "3 -> Ⅲ";
-               break;
+                break;
             case"4":
-               numA = "4 -> Ⅳ";
-               break;
+                numA = "4 -> Ⅳ";
+                break;
             case"5":
-               numA = "5 ->　Ⅴ ";
-               break;
+                numA = "5 ->　Ⅴ ";
+                break;
             default:
-               numA = "unknown";
-               break;
+                numA = "unknown";
+                break;
         }
-     System.out.println(numA);
+        System.out.println(numA);
     }
 }
