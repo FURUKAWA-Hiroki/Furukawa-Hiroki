@@ -2,17 +2,20 @@ package loop;
 import java.util.Scanner;
     public class Task4 {
     public static void main(String[] args) {
-    	Scanner sc = new Scanner(System.in);
-        int i = sc.nextInt();
-             System.out.println("正の整数を入力してください:" + i);
-        sc.close();
+        System.out.print("正の整数を入力してください:");
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
 
-        int v = 0;
+        if(n > 0) {
+            System.out.print(n + "の約数:");
+            sc.close();
 
-        for(v =1; v <= i; v++ ) {
-				if( i % v == 0 ) {
-				    System.out.print(v + "," );
-				}
-	    }
+            for(int i =1; i < n; i++ ) {
+                if(n % i == 0 ) {
+                    System.out.print(i + ",");
+                }
+            }
+        }
+        System.out.print(n);
     }
-}
+} 
