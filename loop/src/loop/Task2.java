@@ -8,13 +8,13 @@ public class Task2 {
         sc.close();
 
         int sum = 0;
-        for (int i = 1 ; i <= numA; i ++){ 
-            sum += + i;
-            System.out.print(i + "+");
+        for(int i = 1 ; i <= numA; i ++){ 
+            sum += i ;
+            System.out.print(i + " + ");
 
-            if(i == numA) {
-                System.out.println("=" + sum);
+            if(i == numA){
+                System.out.println(" = " + sum);
             }
         }
     }
-} 
+}
