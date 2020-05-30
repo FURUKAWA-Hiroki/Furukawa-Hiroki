@@ -18,7 +18,7 @@ public class Task3 {
             }else if(i > num.length){
                 System.out.println();
             }
-            
+
             if(max < num[i]){
                 max = num[i];
             }else if(min > num[i]){
@@ -29,4 +29,4 @@ public class Task3 {
         System.out.println("最大値:" + "" + max);
         System.out.println("最小値;" + "" + min);
     }
-}
+} //保存用　保存用
