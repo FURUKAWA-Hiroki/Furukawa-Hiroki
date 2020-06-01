@@ -17,7 +17,7 @@ public abstract class Task2 {
         numbers.add(11);
         numbers.add(48);
         numbers.add(60);
- 
+
         System.out.print( "奇数：  [");
         for(Integer oddNum  : numbers) {
             if(oddNum % 2 != 0) {
@@ -34,5 +34,5 @@ public abstract class Task2 {
             }
         }
         System.out.print("]");
-    }//インデントのズレ再編集
+    }//インデントのズレ再編集編集
 }
