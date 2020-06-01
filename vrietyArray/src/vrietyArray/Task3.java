@@ -1,9 +1,7 @@
 package vrietyArray;
-
 import java.util.HashMap;
-
 public class Task3 {
-	public static void main(String[] args) {
+    public static void main(String[] args) {
         HashMap<Integer,String>attendanceNum = new HashMap();
         attendanceNum.put(1,"りんご");
         attendanceNum.put(2,"メロン");
@@ -15,6 +13,5 @@ public class Task3 {
         System.out.println(attendanceNum.get(2)  + ":6000円");
         System.out.println(attendanceNum.get(3)  + ":120円");
         System.out.println(attendanceNum.get(4)  + ":98円");
-	}
-
+    }//インデントのズレ再編集
 }

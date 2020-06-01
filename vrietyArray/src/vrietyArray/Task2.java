@@ -34,5 +34,5 @@ public abstract class Task2 {
             }
         }
         System.out.print("]");
-    }
+    }//インデントのズレ再編集
 }

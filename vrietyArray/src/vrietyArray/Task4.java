@@ -1,5 +1,4 @@
 package vrietyArray;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -24,4 +23,4 @@ public class Task4 {
         System.out.println("{偶数: ="+ attendanceNum.get("偶数"));
         System.out.print("奇数: =" + attendanceNum.get("奇数}"));
     }
-}
+}//再編集
