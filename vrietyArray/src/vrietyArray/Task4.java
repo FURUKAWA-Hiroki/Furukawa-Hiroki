@@ -21,6 +21,6 @@ public class Task4 {
         attendanceNum.put("偶数",evenNum);
 
         System.out.println("{偶数: ="+ attendanceNum.get("偶数"));
-        System.out.print("奇数: =" + attendanceNum.get("奇数}"));
+        System.out.print("奇数: =" + attendanceNum.get("奇数") +"}");
     }
-}//再編集編集
+}//再編集編集編集保存用
