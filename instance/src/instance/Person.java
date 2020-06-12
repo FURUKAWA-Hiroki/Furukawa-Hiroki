@@ -1,4 +1,5 @@
 package instance;
+//課題1
 public class Person{
     public String name;
     public int age ;
@@ -6,6 +7,9 @@ public class Person{
     //属性を宣言した上で、フィールドを宣言しています。
     public static void myProfile(String name, int age) {
         myProfile("古川裕貴です。", 26);
+       // System.out.println("私の名前は" + name +"です。");
+        //System.out.println("年齢は" +  age + "です。");
+        //System.out.println("よろしくお願いします。");
     }
 }
 /*Task3用にmyPogfileのメソッドを作成しています。
