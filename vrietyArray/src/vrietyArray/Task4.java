@@ -23,4 +23,4 @@ public class Task4 {
         System.out.println("{偶数: ="+ attendanceNum.get("偶数"));
         System.out.print("奇数: =" + attendanceNum.get("奇数") +"}");
     }
-}//再編集編集編集保存用
+}//再編集編集編集保存用保存用
