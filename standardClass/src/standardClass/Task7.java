@@ -17,7 +17,7 @@ public class Task7 {
         System.out.println(cal.get(Calendar.DAY_OF_MONTH) + "日");
 
         System.out.print("1年後     : ");
-        cal.set(2021, 6 ,12);
+        cal.set(2021, 5 ,12);
         System.out.print(cal.get(Calendar.YEAR) + "年");
         System.out.print(cal.get(Calendar.MONTH) + "月");
         System.out.print(cal.get(Calendar.DAY_OF_MONTH) + "日");

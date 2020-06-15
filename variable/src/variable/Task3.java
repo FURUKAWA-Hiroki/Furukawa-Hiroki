@@ -1,6 +1,5 @@
 package variable;
 public class Task3 {
-
     public static void main(String[] args) {
         int intNum = 219;
         long a =(long)intNum;
