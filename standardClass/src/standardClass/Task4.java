@@ -7,16 +7,11 @@ public class Task4{
         String bStr = sc.nextLine();
         System.out.println("探したい文字:" + bStr);
         sc.close();
-        //System.out.println(aStr.length());
 
-        String[] strAray = aStr.split("_");
-        for(int i = 0; i < strAray.length; i++){
-            //System.out.println(strAray[i]);
-            if(aStr.indexOf(strAray[i]) >= 0 ){
-                System.out.println("ABCDGOPQRSYZは"+ bStr + "を含む");
-            }else{
-                System.out.println("ABCDGOPQRSYZは" + bStr +"を含まない");
-            }
+        if(aStr.indexOf(bStr) >= 0 ){
+            System.out.println("ABCDGOPQRSYZは"+ bStr + "を含む");
+        }else{
+            System.out.println("ABCDGOPQRSYZは" + bStr + "を含まない");
         }
     }
-}   
+}
