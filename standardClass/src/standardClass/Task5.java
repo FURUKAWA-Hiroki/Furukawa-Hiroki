@@ -17,12 +17,14 @@ public class Task5 {
             }
         }
         if(countCat > countMouse) {
-            System.out.println("catの方が大きい");
+            System.out.println("catの方が多い");
         }else if(countMouse > countCat) {
-            System.out.println("mouseの方が大きい");
+            System.out.println("mouseの方が多い");
         }else {
+
             System.out.println("catとmouseの数は同じ");
         }
     }
 }
-//上書き保存のためのコメントコメント
+//「多い」と大きいの出力ミスについて、
+//保存がされてなかったみたいで確認不足で二度手間をおかけしてしまい申し訳ありません。

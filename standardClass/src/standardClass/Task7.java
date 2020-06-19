@@ -22,7 +22,7 @@ public class Task7 {
 
         //検索を掛けて調べましたが、SimpleDateFormatにて月が1月大きく出る理由がわかりませんでした。
         //月の値を"5"に設定すると、曜日も含めて正しく1年後が出力されますので、以下のように記載します。
-        cal.set(2021, 6 - 1 ,17);
+        cal.set(2021, 6 - 1 ,19);
         System.out.print("1年後     : ");
         SimpleDateFormat sdf2 = new SimpleDateFormat("yyyy年MM月dd日(E)");
         System.out.println(sdf2.format(cal.getTime()));
