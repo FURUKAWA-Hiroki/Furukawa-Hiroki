@@ -1,4 +1,4 @@
-package object01;
+package object;
 //オブジェクト指向-課題4
 public class Dog extends Animal{
     /*---フィールド---

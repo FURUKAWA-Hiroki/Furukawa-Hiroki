@@ -7,11 +7,13 @@ public class Task3 {
         int i = sc.nextInt();
         sc.close();
 
-        int keta = 0;
-        while(i > 0){
-            keta ++;
-            i = i / 10;
-        }
+        if(i >= 0){
+            int keta = 0;
+            while(i > 0){
+                keta ++;
+                i = i / 10;
+            }
         System.out.println("桁数:" + keta);
+        }
     }
-}
+} 
