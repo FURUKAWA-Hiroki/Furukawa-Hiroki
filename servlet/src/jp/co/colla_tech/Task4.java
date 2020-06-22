@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
  */
 @WebServlet("/Task4")
 public class Task4 extends HttpServlet {
-	private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;
     /**
      * @see HttpServlet#HttpServlet()
      */
@@ -30,4 +30,4 @@ public class Task4 extends HttpServlet {
         HtmlTemplate.header(out);
         HtmlTemplate.footer(out);
     }
-}
+}// //上書き保存のための文字列

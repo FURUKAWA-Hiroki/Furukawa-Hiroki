@@ -30,4 +30,4 @@ public class Task2 extends HttpServlet {
         out.print("</body>");
         out.print("</html>");
     }
-}
+} // //上書き保存のための文字列

@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/Task1")
 public class Task1 extends HttpServlet {
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) 
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         //doGet(request, response);
         response.setContentType("text/html; charset = UTF-8");
@@ -29,4 +29,4 @@ public class Task1 extends HttpServlet {
         out.println("</body>");
         out.println("</html>");
     }
-}
+} //上書き保存のための文字列
