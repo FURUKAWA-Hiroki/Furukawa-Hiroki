@@ -30,4 +30,4 @@ public class Task4 extends HttpServlet {
         HtmlTemplate.header(out);
         HtmlTemplate.footer(out);
     }
-}// //上書き保存のための文字列文字列
+}// //上書き保存のための文字
