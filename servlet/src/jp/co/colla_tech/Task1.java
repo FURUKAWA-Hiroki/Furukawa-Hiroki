@@ -29,4 +29,4 @@ public class Task1 extends HttpServlet {
         out.println("</body>");
         out.println("</html>");
     }
-} //上書き保存のための文字列文字列
+} //上書き保存のための文字列
