@@ -7,7 +7,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<%  int count = 1;
+<%!  int count = 1;
+%>
+
+<%
     Date now = new Date();
     SimpleDateFormat sdf1 = new SimpleDateFormat("yyyy年MM月dd日");
 %>

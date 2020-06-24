@@ -6,17 +6,17 @@
 <html>
 <head>
 <%-- substractionメソッド --%>
-<%! int add(int numA, int numB){
-        return numA - numB;
-    }
+<%! int substraction(int numA, int numB){
+    return numA - numB;
+}
 %>
 
     <meta charset= "UTF-8">
     <title>JSP TASK</title>
 </head>
 <body>
-    <h1>125 - 15 = <%= add(125,15)%></h1>
-    <h1>17 - 21 = <%= add(17,21)%></h1>
+    <h1>125 - 15 = <%= substraction(125, 15)%></h1>
+    <h1>17 - 21 = <%= substraction(17, 21)%></h1>
 
     </body>
 </html>
