@@ -1,12 +1,15 @@
 package object;
 //オブジェクト指向-課題1/課題2/課題3
+
+//カプセル化してgettersetterの作成が、
+//課題3の課題要件であるにも関わらず,ケアレスミスでの漏れがあり、申し訳ございません。
 public class Person{
     //名前
-    String name;
+     private String name;
     //年齢
-    int age;
+     private int age;
     //財布
-    static int wallet;
+     static int wallet;
 
     //引数無しでインスタンス化したときに実行される
     public Person() {}
@@ -17,8 +20,8 @@ public class Person{
         //ageフィールド
             this.age = age;
     }
-    public Person(int money) { 
-        Person.wallet += money;
+    public Person(int money) {
+        Person.setWallet(Person.getWallet() + money);
     }
 
     public void myProfile() {
@@ -42,5 +45,13 @@ public class Person{
       //ageのsetter
     public void setAge(int age) {
         this.age = age;
+
+    //カプセル化するためのgetterとsetterメソッドの作成
     }
+	public static int getWallet() {
+		return wallet;
+	}
+	public static void setWallet(int wallet) {
+		Person.wallet = wallet;
+	}
 }
