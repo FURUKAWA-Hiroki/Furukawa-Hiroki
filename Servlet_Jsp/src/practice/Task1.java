@@ -20,7 +20,7 @@ public class Task1 extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<meta charset=  'UTF - 8' >" );
+            out.println("<meta charset=  'UTF-8' >" );
             out.println("<title>Servlet-Jsp Task </title>");
             out.println("</head>");
             out.println("<body>");
