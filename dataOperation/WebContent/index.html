@@ -1,0 +1,34 @@
+<!--データ操作 課題1,3.4 (ファイル01)-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset= "UTF-8">
+  <title>想定画面01</title>
+  </head>
+  <body>
+    <form action= "/dataOperation/Result" method="POST">
+名前:<input type="text" name= "name" ><br>
+性別:男<input type="radio" name="gender" value="男">
+          女<input type="radio" name="gender" value="女"><br>
+
+ お問い合わせ種類<br>
+    <select name ="select">
+      <option value="0">製品について</option>
+      <option value="1">不具合やクレーム</option>
+      <option value="2">アフターサポート</option>
+    </select><br>
+
+ お問い合わせ内容<br>
+    <textarea name ="textbox" rows="4" cols ="38">150文字以内で入力してください</textarea><br>
+    <input type= "submit" value ="送信">
+    </form>
+
+    <form action= "dataOperation/Result/CountCookie" method ="GET">
+    </form>
+
+     <form action= "dataOperation/Result/countSession" method ="GET">
+    </form>
+
+</body>
+</html>
