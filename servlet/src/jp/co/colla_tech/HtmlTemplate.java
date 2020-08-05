@@ -14,6 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 public class HtmlTemplate extends HttpServlet {
 
     private static String kuji;
+
 	public static void header(PrintWriter out) {
         out.println("<!DOCTYPE html>");
         out.println("<html>");
@@ -24,18 +25,19 @@ public class HtmlTemplate extends HttpServlet {
         out.println("<body>");
     }
 
-    public static void footer(PrintWriter out) {
+    public static void fortune(PrintWriter out) {
         out.println("<p>↓占い結果↓</p>");
-
         Random rnd = new Random();
         String[] fortune = new String[] {"大吉","中吉","小吉","末吉","凶","大凶"};
         for(int i = 0 ; i <= fortune.length ; i++) {
             kuji = fortune[rnd.nextInt(6)];
         }
-        out.println("</h1>");
+        out.println("<h1>");
         out.println(kuji);
         out.println("</h1>");
+    }
 
+        public static void footer(PrintWriter out) {
         out.println("</body>");
         out.println("</html>");
     }
