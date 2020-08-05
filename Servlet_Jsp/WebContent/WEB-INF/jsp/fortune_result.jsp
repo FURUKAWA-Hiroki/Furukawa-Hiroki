@@ -5,7 +5,7 @@
 <html>
 <head>
 <%
-    FortuneBean fortuneBean = (FortuneBean) request.getAttribute("Data");
+    FortuneBean fortuneBean = (FortuneBean) request.getAttribute("data");
 %>
 <meta charset="UTF-8">
 <title>jsp servret task4</title>
